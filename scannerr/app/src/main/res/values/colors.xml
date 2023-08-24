@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#6200EE</color>
+    <color name="dark_blue">#3700B3</color>
+    <color name="purple">#BB86FC</color>
+    <color name="teal">#03DAC5</color>
+    <color name="background">#FFFFFF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="error">#B00020</color>
+
+    <color name="night_black">#FFFFFFFF</color>
+    <color name="night_white">#FF000000</color>
+    <color name="night_blue">#3700B3</color>
+    <color name="night_dark_blue">#6200EE</color>
+    <color name="night_purple">#BB86FC</color>
+    <color name="night_teal">#03DAC5</color>
+    <color name="night_background">#121212</color>
+    <color name="night_surface">#121212</color>
+    <color name="night_error">#CF6679</color>
+
+</resources>

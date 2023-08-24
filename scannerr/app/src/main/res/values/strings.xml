@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">scannerr</string>
+    <string name="WEBSITE">Website</string>
+    <string name="EMAIL">Email</string>
+    <string name="PHONE">Cell number</string>
+    <string name="REPRESENTATIVE">Representative name</string>
+    <string name="OCCUPATION">Occupation</string>
+    <string name="ORGANIZATION">Organization name</string>
+    <string name="ADDRESS">Address</string>
+    <string name="TELEPHONE">Telephone</string>
+    <string name="MOBILE">Mobile</string>
+    <string name="FAX">Fax</string>
+
+</resources>

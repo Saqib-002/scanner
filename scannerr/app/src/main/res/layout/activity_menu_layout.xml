@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/menuLayout"
+    android:layout_width="200dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="120dp"
+    android:paddingBottom="50dp"
+    android:background="@android:color/white"
+    android:layout_gravity="end">
+
+    <Button
+        android:id="@+id/btnAboutUs"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/circle_button"
+        android:backgroundTint="@color/blue"
+        android:text="About Us" />
+
+    <Button
+        android:id="@+id/btnContactUs"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/circle_button"
+        android:backgroundTint="@color/blue"
+        android:text="Contact Us" />
+
+    <Button
+        android:id="@+id/btnHelp"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/circle_button"
+        android:backgroundTint="@color/blue"
+        android:text="Help"
+        android:textAllCaps="true" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/btnGoBack"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/circle_button"
+        android:backgroundTint="@color/blue"
+        android:text="Go back"
+        android:textAllCaps="true" />
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="15dp"
+        android:text="Label"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/textField"
+        android:layout_width="282dp"
+        android:minHeight="34dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/label"
+        android:layout_marginStart="-2dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/button_style"
+        android:gravity="center"
+        android:inputType="textMultiLine"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/edit_button"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="325dp"
+        android:layout_marginTop="48.5dp"
+        android:background="@drawable/pen"
+        android:backgroundTint="#000000"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/delete_button"
+        android:layout_width="27dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="370dp"
+        android:layout_marginTop="48.5dp"
+        android:background="@drawable/delete"
+        android:backgroundTint="#FF0000"
+        android:textColor="@color/black" />
+</RelativeLayout>
